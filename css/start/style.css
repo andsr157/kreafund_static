@@ -244,7 +244,9 @@ padding-right: 9rem;
     font-family: "cooper_lt_btlight";
     padding: 1.5rem;
     padding-bottom: 1rem;
+    cursor: pointer;
 }
+
 .start-cat .ikon span{
     font-size: 1.3rem;
 }

@@ -1028,7 +1028,6 @@ footer .psc-8 ul{
   width: 100%;
   height: 6px;
   background-color: var(--kf-border);
-  margin-top: 2rem;
   
 }
 .project_detail .content .bargreen{
@@ -1055,6 +1054,13 @@ footer .psc-8 ul{
   color: var(--kf-black-grey);
 }
 
+.project_detail .content .dtl P{
+  font-size: 0.8rem;
+  color: var(--kf-black);
+  font-weight: 500;
+  line-height: 1.6;
+}
+
 .project_detail footer{
   position: relative;
   z-index: 1020;
@@ -1077,7 +1083,7 @@ footer .psc-8 ul{
 
 
 .project_detail .main-content .reward-box{
-  height: 30rem;
+  height: 40rem;
   overflow-y: auto;
   margin-left: 5rem;
   padding: 1rem;
@@ -1107,7 +1113,7 @@ footer .psc-8 ul{
 }
 
 .project_detail .rcard h3{
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-weight: bold;
 }
 
@@ -1119,7 +1125,7 @@ footer .psc-8 ul{
 }
 
 .project_detail .rcard .rdesc p{
-  font-size: 1rem;
+  font-size: 0.9rem;
   line-height: 1.3;
   color: var(--kf-dark-grey);
 }
