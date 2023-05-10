@@ -267,7 +267,7 @@ header a {
     vertical-align: middle;
 }
 
-.border-active {
+.rborder-active {
     border-bottom: solid;
     border-color: var(--kf-primary);
 }
@@ -579,6 +579,8 @@ header a {
     font-size: 0.9rem;
     color: var(--kf-grey);
 }
+
+
 
 .hide {
     display: none;

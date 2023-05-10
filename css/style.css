@@ -52,11 +52,12 @@
     --kf-base: #ffb846;
     --kf-base-rgb: 252, 173, 48;
     --kf-primary: #05CE78;
+    --kf-primary-dark:#037362;
     --kf-primary-rgb: 78, 205, 153;
     --kf-soft-black:#282828;
     --kf-secondary: #ed4b4b;
     --kf-secondary-rgb: 237, 75, 75;
-    --kf-special: #5366c2;
+    --kf-special: #5555FF;
     --kf-special-rgb: 83, 102, 194;
     --kf-black: #242323;
     --kf-black-rgb: 36, 35, 35;
@@ -130,7 +131,8 @@ header .category .list-group .list-group-item{
 /* hero section */
 .hero {
     background-color: #ffff;
-    padding: 6rem 0;
+    padding-top: 6rem;
+    padding-bottom: 4rem;
   }
 
   .hero h1 {
@@ -159,6 +161,7 @@ header .category .list-group .list-group-item{
 
   .project h3{
     color: var(--kf-black);
+    font-size: 1.2rem;
   }
   .project h4{
     font-size: 1.25rem;
@@ -169,7 +172,6 @@ header .category .list-group .list-group-item{
   }
 
   .project .fp{
-    background-color: transparent;
     color: var(--cl-white-text);
   }
 
@@ -200,6 +202,7 @@ header .category .list-group .list-group-item{
 
   .bg-fit {
     background-size: cover;
+    background-position: center;
   }
 
   .pbox{
@@ -238,6 +241,7 @@ header .category .list-group .list-group-item{
 }
 .info h3{
 font-size: 2rem;
+color: var(--kf-primary-dark);
 }
 
 .info p{
@@ -247,7 +251,7 @@ font-size: 2rem;
 
 .info .caption .garis{
   border-left: solid;
-  border-color: #303030;
+  border-color: var(--kf-primary-dark);
   border-width: 6px;
 }
 
@@ -349,6 +353,9 @@ font-size: 2rem;
   color: var(--kf-black);
 }
 
+.fresh h3{
+  font-size: 1.1rem;
+}
 
 .fresh h4{
   font-size: 1rem;
@@ -400,7 +407,7 @@ font-size: 2rem;
 .fresh .garis{
   width: 100%;
   height: 2px;
-  background-color:var(--kf-black-grey);
+  background-color:var(--kf-primary-dark);
   content: "";
 }
 /* end fresh */
@@ -413,9 +420,9 @@ font-size: 2rem;
 
 .counter h2{
   line-height: 1.5;
-  color: var(--kf-black2);
+  color: var(--kf-primary-dark);
   font-size: 1.75rem;
-  font-weight: bold;
+  font-weight: 600;
 }
 
 .counter .back{
@@ -440,6 +447,9 @@ font-size: 2rem;
 .info_corner a{
   color: var(--kf-black);
 }
+.info_corner a:hover{
+  text-decoration: underline;
+}
 
 
 .info_corner .corner img{
@@ -463,13 +473,13 @@ font-size: 2rem;
 .info_corner .corner .box{
   border: solid;
   border-width: 1px;
-  border-color: #9e9e9e;
+  border-color: var(--kf-border);
   padding: 1rem;
   box-sizing: border-box;
 }
 
 .info_corner .corner .box a{
-  color: var(--kf-color);
+  color: var(--kf-special);
   font-size: 1rem;
 }
 
@@ -1027,8 +1037,7 @@ footer .psc-8 ul{
 .project_detail .content .content-box{
   width: 800px;
   height: 450px;
-  background-size: cover;
-  background-color: #303030;
+  padding: 0;
 }
 
 .project_detail .content .bargrey{
@@ -1075,6 +1084,8 @@ footer .psc-8 ul{
 
 .project_detail .main-content .main-text{
   text-align: justify;
+  line-height: 1.8rem;
+  font-size: 1rem;
 }
 
 .project_detail .main-content .main-text img{
