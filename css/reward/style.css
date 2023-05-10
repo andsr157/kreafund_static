@@ -151,7 +151,7 @@ table {
     --kf-black2-rgb: 29, 28, 28;
     --kf-black-grey: #303030;
     --kf-grey: #656969;
-    --KF-btn-grey:#464646;
+    --kf-btn-grey: #464646;
     --kf-dark-grey: #656969;
     --kf-light-grey: #F3F3F3;
     --kf-text-dark: #9e9e9e;
@@ -181,6 +181,9 @@ a {
     color: var(--kf-black);
 }
 
+a:hover{
+    color: var(--kf-black);
+}
 .active-border {
     border-bottom: solid;
     border-color: var(--kf-primary);
@@ -307,6 +310,11 @@ header a {
     font-family: 'maison_neuebook';
 }
 
+.reward a {
+    text-decoration: none;
+    color: var(--kf-black2);
+}
+
 .reward .new {
     background-color: var(--KF-btn-grey);
     font-weight: 500;
@@ -315,7 +323,7 @@ header a {
 }
 
 .reward .new btn {
-color: white;
+    color: white;
 }
 
 
@@ -331,6 +339,249 @@ color: white;
     font-size: 0.8rem;
     color: var(--kf-primary);
     text-decoration: underline;
+}
+
+
+.reward .t-head span {
+    color: var(--kf-black-grey);
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+
+.reward .r-outter {
+    border: solid;
+    border-color: var(--kf-border-gray);
+    border-width: 1.5px;
+}
+
+.reward .r-outter:hover {
+    box-shadow: 0 3px 6px 1px rgba(0, 0, 0, 0.17);
+    transition: all 0.25s ease-in-out !important;
+}
+
+.reward .rbox {
+
+    padding: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.reward .rbox h3 {
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: var(--kf-black2);
+}
+
+.reward .rbox ul li {
+    list-style: disc;
+    font-size: 1rem;
+}
+
+.reward .dummy {
+    background-color: var(--kf-bg-grey-color);
+    border: solid;
+    border-color: var(--kf-border-gray);
+    border-width: 0.5px;
+}
+
+.reward_form {
+    font-family: 'maison_neuebook';
+}
+
+.reward_form .title-form h2 {
+    font-size: 2rem;
+    font-weight: 200;
+    color: var(--kf-black);
+    line-height: 3rem;
+
+}
+
+.reward_form .side-form input {
+    padding-top: 0.6rem;
+    padding-bottom: 0.6rem;
+}
+
+.reward_form .side-form input::placeholder {
+    font-size: 0.8rem;
+    color: var(--kf-grey);
+    opacity: 0.7;
+}
+
+.reward_form .side-form label {
+    font-size: 1rem;
+    color: var(--kf-soft-black);
+    font-weight: 400;
+}
+
+.reward_form .side-form span {
+    line-height: 1.3rem;
+}
+
+
+
+.reward_form .side-form .media-form {
+    padding-left: 0;
+    box-sizing: border-box;
+    background-color: var(--kf-bg-grey-color);
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+
+.reward_form .side-form .media-form label {
+    color: var(--kf-black);
+}
+
+.reward_form .side-form .media-form .btn-circle {
+    background-color: #fff;
+    border-radius: 50%;
+    padding: 2rem;
+    box-shadow: 0px 3.5px #1e1e1e0e;
+}
+
+
+
+.reward_form .side-form .media-form .btn-circle label {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+.reward_form .side-form .media-form .btn-circle label i {
+    vertical-align: middle;
+}
+
+.reward_form .side-form .media-form .type-1 {
+    color: var(--kf-soft-black);
+    font-size: 0.9rem;
+}
+
+.reward_form .side-form .media-form .type-2 {
+    color: #656969;
+    font-size: 0.8rem;
+}
+
+.reward_form .side-form .item-form select {
+    font-size: 0.85rem;
+    padding: 0.6rem;
+    font-family: "cooper_lt_btlight";
+}
+
+.reward_form .side-form .item-form label {
+    font-size: 0.9rem;
+}
+
+.reward_form .side-form .item-form .form-select {
+    font-family: "maison_neuebook";
+}
+
+
+
+.reward_form .outter {
+    border: solid;
+    border-color: var(--kf-border-gray);
+    border-width: 0.7px;
+    padding-top: 1.3rem;
+}
+
+.reward_form .radiobox {
+
+    padding-bottom: 1.3rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+
+
+
+
+
+
+.reward_form .side-form .rimage .img-thumbnail{
+    padding: 0;
+  }
+  
+  .reward_form .side-form .rimage img{
+    height: 183px;
+    object-fit: cover;
+  }
+  
+  
+  .reward_form .rcard h2 {
+    font-size: 1.2rem;
+    border-radius: 0;
+    
+  }
+  
+  .reward_form .rcard h3{
+    font-size: 1rem;
+    font-weight: 600;
+  }
+  
+  .reward_form .rcard .image-box{
+    height: 72px;
+    width: 72px;
+    border-radius: 50%;
+    background-color: #1d1c1c;
+  }
+  
+  .reward_form .rcard .rdesc p{
+    font-size: 0.9rem;
+    line-height: 1.3;
+    color: var(--kf-dark-grey);
+    text-align: justify;
+  }
+  
+  .reward_form .rcard .rdesc ul{
+    list-style-type: disc;
+    margin-left: 2rem;
+  }
+  
+  .reward_form .rcard .rdesc ul li{
+    font-size: 0.9rem;
+  }
+  
+  .reward_form .rcard .rdesc span{
+    margin-top: 1.5rem;
+    font-size: 0.9rem;
+    color: var(--kf-color);
+  }
+  
+  
+  .reward_form .rcard .rstat button{
+    font-size: 0.7rem;
+    padding: 0.4rem;
+    background-color: #F3F3F3;
+    color: var(--kf-black-grey);
+    border: none;
+    border-radius: 0;
+  }
+
+  .reward_form .side{
+    border: solid;
+    border-color: var(--kf-text-dark);
+    border-width: 1px;
+    border-radius: 0;
+    padding: 0;
+  }
+
+.type-9 {
+    font-size: 0.9rem;
+    color: var(--kf-black-grey);
+}
+
+.type-10 {
+    font-size: 1rem;
+    color: var(--kf-grey);
+}
+
+.type-13 {
+    font-size: 0.9rem;
+    color: var(--kf-grey);
+}
+
+.hide {
+    display: none;
 }
 
 /* footer */
